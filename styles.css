@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+#hero{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: grey;
+}
+
+.hero-content{
+	flex: ;
+	padding: 20px;
+	align-items: center;
+}
+
+#hero img{
+	width: 250px;
+	height: 150px;
+	object-fit: cover;
+}
+
+#btn{
+	padding: 10px 20px; 
+	background-color: #ff0000; 
+	color: white;
+	border-radius: 6px;
+	text-align: center;
+	border: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+#btn:hover {
+	background-color: #cc0000;
+}
+
+
