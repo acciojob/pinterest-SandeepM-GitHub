@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-#hero{
+.hero{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -12,7 +12,7 @@
 	align-items: center;
 }
 
-#hero img{
+.hero img{
 	width: 250px;
 	height: 150px;
 	object-fit: cover;
